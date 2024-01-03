@@ -7,6 +7,10 @@ module.exports = () =>{
         try {
             mongoose.connect(
                 uri,
+                {
+                useNewUrlParser:true,
+                useUnifiedTopology:true
+                }
                 /*{
                     keepAlive:true,
                     useNewUrlParser:true,
