@@ -2,7 +2,7 @@ const express = require("express");
 const initDB = require('./config/db')
 const app = express()
 const bodyParser = require('body-parser')
-const port = 3001
+const port = 80
 
 const userRouter = require('./app/routes/user')
 const itemsRouter = require('./app/routes/items')
